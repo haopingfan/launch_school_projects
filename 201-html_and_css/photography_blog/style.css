@@ -1,0 +1,90 @@
+@import url("whitespace-reset.css");
+
+body {
+  width: 1100px;
+  font: normal 18px 'Roboto Condensed', sans-serif;
+  color: #3e606f;
+  background: linear-gradient(to bottom, #d2dbbd, #fcfff5);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+header {
+  width: 920px;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+}
+
+header h1 {
+  float: left;
+  padding: 45px 0 15px 115px;
+  background: transparent url("logo.png") 0 0 no-repeat;
+  color: #193441;
+  font-size: 36px;
+  font-weight: normal;
+  width: 170px;
+}
+
+nav {
+  float: right;
+  padding: 75px 0 0 0;
+}
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  padding: 10px 40px 14px 40px;
+  color: #91aa9d;
+  text-decoration: none;
+  background-color: #fcfff5;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+nav li:first-child a {
+  color: #fcfff5;
+  background-color: #91aa9d;  
+}
+
+main {
+  box-sizing: border-box;
+  width: 960px;
+  background: #ffffff;
+  clear: both;
+  margin: 0 auto 15px auto;
+  padding: 30px;
+  overflow: hidden;
+  box-shadow: 0px 5px 5px 0px #b5b5b5;
+}
+
+img:nth-of-type(1) {
+  margin-bottom: 40px;
+}
+
+main h1 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #3e606f;
+  margin-bottom: 30px;
+}
+
+img:nth-of-type(2) {
+  float: right;
+  margin: 0 0 10px 40px;
+}
+
+main p:nth-of-type(1) {
+  margin-bottom: 25px;
+}
+main p:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+footer {
+  width: 960px;
+  margin: 0 auto 35px auto;
+  font-size: 14px;
+  font-weight: normal;
+  color: #3e606f;
+}

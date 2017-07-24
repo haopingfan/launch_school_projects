@@ -1,0 +1,221 @@
+@import url("whitespace_reset.css");
+
+body {
+  font: normal 20px Helvetica, sans-serif;
+}
+body > header {
+  background-color: #3d3d3d;
+  padding: 130px 0 50px 0;
+}
+header h1 {
+  font: normal 68px Helvetica, Arial, sans-serif;;
+  padding: 0 0 125px 0;
+  margin: 0 0 135px 0;
+  letter-spacing: 20px;
+  background: transparent url("logo.png") 50% 100% no-repeat;
+  text-align: center;
+}
+header h1 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header ul {
+  text-align: center;
+}
+header li {
+  display: inline;
+  padding: 0 25px;
+}
+header li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header a.active {
+  color: #50c3af;
+}
+main {
+  max-width: 1000px;
+  padding: 80px 0 90px 0;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main article {
+  padding-bottom: 65px;
+}
+h2 {
+  font: bold 36px Helvetica, sans-serif;
+  padding-bottom: 20px;
+  color: #45494d;
+}
+
+main article h2 a {
+  text-decoration: none;
+  color: #45494d;
+}
+main article p {
+  padding-bottom: 20px;
+}
+main article p a {
+  color: #50c3af;
+}
+p {
+  line-height: 150%;
+  text-align: justify;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 5px 25px;
+  color: #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #50c3af;
+  border: none;
+}
+div#pagination a.prev {
+  background: #d2d5da;
+  cursor: default;
+}
+div#pagination a.next{
+  background: #50c3af;
+  margin-left: 25px;
+}
+div#sidebar {
+  background: #f6f7f8;
+  padding: 40px;
+  overflow: hidden;
+}
+div#sidebar h3 {
+  font-size: 16px;
+  padding-bottom: 35px;
+}
+div#sidebar li {
+  list-style: url("blt_ul.png");
+  padding-bottom: 5px;
+}
+div#sidebar ul {
+  padding: 0 0 115px 20px;
+  font-size: 14px;
+  color: #787b80;;
+}
+div#sidebar p {
+  font-size: 14px;
+  color: #787b80;  
+}
+div#content {
+  float: left;
+  width: 65%;
+  padding: 0 11.5% 0 0;
+}
+footer {
+  max-width: 1000px;
+  border-top: 1px solid #d0d0d0;
+  padding: 15px 0 30px 0;
+  margin: 0 auto;
+  font: normal 12px Helvetica, Arial, sans-serif;
+  color: #7e8287;
+}
+main section img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+main section header h3 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 0 35px 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+main section header a {
+  color: #50c3af;
+}
+main section article {
+  padding-bottom: 30px;
+}
+form dt {
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #45494d;
+}
+form dd {
+  padding-bottom: 15px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 450px;
+  height: 38px;
+  padding: 5px 10px;
+  font: normal 15px Helvetica, Arial, sans-serif;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 100%;
+  height: 140px;
+  resize: none;
+}
+
+@media (max-width: 768px) {
+  body > header {
+    padding: 40px 0 20px 0;
+  }
+  body > header h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  div#content {
+    float: none;
+    width: auto;
+    padding: 0 25px 50px 25px;
+  }
+  #sidebar .block {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+  }
+  div#sidebar ul {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  body > header {
+    padding: 40px 0 0 0;
+  }
+  body > header h1 {
+    padding: 0 0 90px 0;
+    margin: 0 0 50px 0;
+    background-size: 90% auto;
+  }
+  nav li {
+    display: inline-block;
+    width: 49%;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  div#sidebar {
+    padding: 0 25px;
+    background: transparent;
+  }
+  div#sidebar .block {
+    display: block;
+    width: auto;
+    padding: 20px;
+    margin: 0 0 25px 0;
+    background: #f6f7f8;
+  }
+}
